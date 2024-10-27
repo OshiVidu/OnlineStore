@@ -82,7 +82,7 @@
 		F86DAF072CCE437200D3E8FC = {
 			isa = PBXGroup;
 			children = (
-				F86DAF3D2CCE49D600D3E8FC /* View */,
+				F86DAF482CCE4F3900D3E8FC /* View */,
 				F86DAF122CCE437200D3E8FC /* OnlineStore */,
 				F86DAF232CCE437200D3E8FC /* OnlineStoreTests */,
 				F86DAF2D2CCE437200D3E8FC /* OnlineStoreUITests */,
@@ -136,15 +136,15 @@
 			path = OnlineStoreUITests;
 			sourceTree = "<group>";
 		};
-		F86DAF3D2CCE49D600D3E8FC /* View */ = {
+		F86DAF482CCE4F3900D3E8FC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F86DAF402CCE4A4000D3E8FC /* ExploreView.swift */,
-				F86DAF422CCE4A5100D3E8FC /* HomeView.swift */,
-				F86DAF442CCE4A6700D3E8FC /* ProductView.swift */,
 				F86DAF462CCE4A7A00D3E8FC /* WalletView.swift */,
+				F86DAF442CCE4A6700D3E8FC /* ProductView.swift */,
+				F86DAF422CCE4A5100D3E8FC /* HomeView.swift */,
+				F86DAF402CCE4A4000D3E8FC /* ExploreView.swift */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

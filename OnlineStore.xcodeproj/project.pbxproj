@@ -14,6 +14,10 @@
 		F86DAF252CCE437200D3E8FC /* OnlineStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DAF242CCE437200D3E8FC /* OnlineStoreTests.swift */; };
 		F86DAF2F2CCE437200D3E8FC /* OnlineStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DAF2E2CCE437200D3E8FC /* OnlineStoreUITests.swift */; };
 		F86DAF312CCE437200D3E8FC /* OnlineStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DAF302CCE437200D3E8FC /* OnlineStoreUITestsLaunchTests.swift */; };
+		F86DAF412CCE4A4000D3E8FC /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DAF402CCE4A4000D3E8FC /* ExploreView.swift */; };
+		F86DAF432CCE4A5100D3E8FC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DAF422CCE4A5100D3E8FC /* HomeView.swift */; };
+		F86DAF452CCE4A6700D3E8FC /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DAF442CCE4A6700D3E8FC /* ProductView.swift */; };
+		F86DAF472CCE4A7A00D3E8FC /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DAF462CCE4A7A00D3E8FC /* WalletView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		F86DAF2A2CCE437200D3E8FC /* OnlineStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlineStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F86DAF2E2CCE437200D3E8FC /* OnlineStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineStoreUITests.swift; sourceTree = "<group>"; };
 		F86DAF302CCE437200D3E8FC /* OnlineStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F86DAF402CCE4A4000D3E8FC /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		F86DAF422CCE4A5100D3E8FC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F86DAF442CCE4A6700D3E8FC /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		F86DAF462CCE4A7A00D3E8FC /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 		F86DAF072CCE437200D3E8FC = {
 			isa = PBXGroup;
 			children = (
+				F86DAF3D2CCE49D600D3E8FC /* View */,
 				F86DAF122CCE437200D3E8FC /* OnlineStore */,
 				F86DAF232CCE437200D3E8FC /* OnlineStoreTests */,
 				F86DAF2D2CCE437200D3E8FC /* OnlineStoreUITests */,
@@ -125,6 +134,17 @@
 				F86DAF302CCE437200D3E8FC /* OnlineStoreUITestsLaunchTests.swift */,
 			);
 			path = OnlineStoreUITests;
+			sourceTree = "<group>";
+		};
+		F86DAF3D2CCE49D600D3E8FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F86DAF402CCE4A4000D3E8FC /* ExploreView.swift */,
+				F86DAF422CCE4A5100D3E8FC /* HomeView.swift */,
+				F86DAF442CCE4A6700D3E8FC /* ProductView.swift */,
+				F86DAF462CCE4A7A00D3E8FC /* WalletView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86DAF452CCE4A6700D3E8FC /* ProductView.swift in Sources */,
 				F86DAF162CCE437200D3E8FC /* ContentView.swift in Sources */,
+				F86DAF432CCE4A5100D3E8FC /* HomeView.swift in Sources */,
+				F86DAF412CCE4A4000D3E8FC /* ExploreView.swift in Sources */,
 				F86DAF142CCE437200D3E8FC /* OnlineStoreApp.swift in Sources */,
+				F86DAF472CCE4A7A00D3E8FC /* WalletView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
